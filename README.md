@@ -174,3 +174,4 @@ Projekt pozostaje prototypem fizyczno‑topologicznym, ale jego założenia są 
 
 MIT — możesz używać, modyfikować i rozwijać.
 
+![Schemat Topologicznego Generatora Fotonów](https://github.com/jbackk-lang/genertor-fotonow/blob/main/GenFoto.png)
