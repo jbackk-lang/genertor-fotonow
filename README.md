@@ -3,7 +3,7 @@
 ## 🔗 Wszystkie modele i repozytoria
 Pełna lista projektów znajduje się na stronie:
 https://jbackk-lang.github.io
-
+---
 
 Urządzenie polowe, w którym **skręt pola elektromagnetycznego** wymusza emisję fotonów.  
 Bez wybijania elektronów.  
