@@ -174,6 +174,68 @@ Taki układ nie jest laserem ani diodą LED — to **źródło światła oparte 
 
 Projekt pozostaje prototypem fizyczno‑topologicznym, ale jego założenia są spójne i otwierają drogę do dalszych eksperymentów oraz rozwoju urządzenia. 
 
+---
+1. (Aksjomat osi koła)
+   Nośnik (foton / stan informacyjny) jest zdefiniowany wyłącznie względem osi dookólnej koła.
+   Wszystkie trajektorie generacji są współmierne z tą osią (układ cylindryczny).
+
+2. (Aksjomat ograniczenia generacji)
+   Generatorem nie może nic wyjść poza oś dookólną koła.
+   Model nie dopuszcza propagacji radialnej ani bocznej poza tę oś (brak wycieku).
+
+3. (Aksjomat odniesienia cewek)
+   Cewki, uzwojenia i elementy pomocnicze mogą być rozmieszczone poza idealną geometrią koła,
+   lecz ich działanie jest zawsze mierzone względem osi dookólnej koła jako układu odniesienia.
+
+4. (Aksjomat pustki topologicznej)
+   Obszary geometrii, które nie zamykają się topologicznie względem koła (np. wierzchołki
+   trójkąta równobocznego wychodzące poza obwód), są traktowane jako topologiczna „pustka”:
+   brak nośnika, brak stanu, brak sprzężenia.
+
+5. (Aksjomat zamknięcia sprzężenia)
+   Stan fotonowy może istnieć tylko tam, gdzie istnieje zamknięta relacja
+   między generatorem a osią dookólną koła. Brak zamknięcia = brak stanu.
+
+6. (Aksjomat symetrii)
+   Układ zachowuje symetrię obrotową względem osi dookólnej koła.
+   Wszelkie odchylenia elementów (cewki, czujniki) nie naruszają tej symetrii,
+   o ile ich efekty są definiowane względem tej osi.
+---
+Układ odniesienia:
+- Oś dookólna koła: oś Z przechodząca przez środek układu (0,0,Z)
+- Promień koła roboczego: R = 1.0 m
+- Przestrzeń nośna stanu fotonowego: tylko wzdłuż osi Z, w obrębie r ≤ R
+
+1. Generator fotonowy:
+   - Położenie geometryczne: w środku układu, na osi Z
+     (x = 0.0, y = 0.0, z = 0.0)
+   - Warunek: wszystkie generowane stany są związane z osią Z,
+     brak składowej radialnej (r = 0).
+
+2. Cewka główna (C1):
+   - Położenie: na obwodzie koła, w płaszczyźnie Z = 0
+     (x = +1.0 m, y = 0.0 m, z = 0.0 m)
+   - Funkcja: sprzężenie z osią Z poprzez pole, pomiar zawsze
+     odniesiony do osi (0,0,Z).
+
+3. Cewka pomocnicza (C2):
+   - Położenie: poza obwodem koła, wierzchołek trójkąta równobocznego
+     o boku 1.0 m, wychodzący poza R:
+     (x = +1.0 m, y = +0.866 m, z = 0.0 m)
+   - Interpretacja: geometria C2 nie zamyka się topologicznie
+     względem koła → strefa „pustki” (brak nośnika, brak stanu).
+
+4. Strefa pustki topologicznej:
+   - Definicja: wszystkie punkty, dla których r > R
+     (r = sqrt(x² + y²) > 1.0 m)
+   - W tych obszarach model nie dopuszcza istnienia stanu fotonowego,
+     mogą istnieć tylko elementy pomocnicze (cewki, czujniki),
+     których efekty są mierzone wyłącznie względem osi Z.
+
+5. Symetria:
+   - Układ zachowuje symetrię obrotową względem osi Z.
+   - Cewki mogą być rozmieszczone pod różnymi kątami φ,
+     ale stan fotonowy pozostaje zdefiniowany tylko względem osi Z.
 
 ## 📜 Licencja
 
