@@ -246,6 +246,52 @@ Układ odniesienia:
    - Cewki mogą być rozmieszczone pod różnymi kątami φ,
      ale stan fotonowy pozostaje zdefiniowany tylko względem osi Z.
 
+[ Geometric Work / Twist Injection ]
+│
+▼
+[ Critical Density Threshold (ρ) ]
+│
+▼
+┌──────────────────┐
+│  TURNING POINT   │  ◄─── TIMDR Self-Cleaning Activation
+└────────┬─────────┘
+│
+┌───────┴─────────────────┐
+▼                         ▼
+[Pure Field Relaxation]   [Emanation of Positive Helix (Photon)]
+
+
+## The Self-Cleaning Mechanics (Samoczyszczenie Pola)
+
+In the language of the $\Lambda - \tau - \rho$ triad, a photon is not "created" from nothing; it is the emergent physical manifestation of a geometric anomaly being resolved by the system:
+
+1. **Conjunction Point Initialization:** The framework constricts the local field lines at a specific scale $\Lambda$, exponentially increasing the local information density $\rho$.
+2. **Topological Twist Insertion:** An asymmetric angular momentum operator $\hat{\mathcal{T}}_{twist}$ forces a local phase-space rotation. 
+3. **Self-Cleaning Relaxation:** At the critical point (the Turning Point), the geometric configuration cannot sustain the accumulated tension in a static state. Because the system is **inherently self-cleaning**, it automatically sheds the non-local topological noise. 
+4. **Helix Emanation:** Due to the pre-existing twist, the expelled energy density cannot dissipate chaotycznie. It is forced into a self-propagating, right-handed positive helical configuration—a coherent photon ($\Delta p_{asymmetric}$), as defined in `jbackk-lang/Photo-Hel`.
+
+## Mathematical Formalism
+
+The boundary condition for the field relaxation and subsequent photon ejection is verified by `math-validator-2.0` under the following closed-manifold integral:
+
+$$\oint_{\partial \mathcal{M}} \hat{\mathcal{T}}_{twist} \left( \rho_{vacuum} \cdot \frac{\partial \Lambda}{\partial \tau} \right) d\mu = \mathbf{k}_{\text{photon}}$$
+
+Where:
+*   $\partial \mathcal{M}$ represents the bounded domain of the topological node.
+*   $\tau$ is the exact relaxation window required for the twist to decouple from the core matrix.
+*   $\mathbf{k}_{\text{photon}}$ is the resulting wave-vector of the emergent photon.
+
+Since this process bypasses the kinetic and thermal dissipation scales associated with crystal lattices and electron-phonon scattering, the theoretical transition efficiency approaches unity ($100\%$).
+
+## Interoperability Matrix
+
+| Layer | Module Responsibility |
+| :--- | :--- |
+| **Physics Runtime** | `FIELDCORE` managing vacuum density maps |
+| **Geometry Math** | `TRM-Geometry-Core` computing the exact $\hat{\mathcal{T}}_{twist}$ operator |
+| **Logical Control** | `topologic` handling the precise $\tau$ (relaxation time) triggering |
+| **Validation** | `math-validator-2.0` ensuring zero net-energy leaks outside the man
+
 ## 📜 Licencja
 
 MIT — możesz używać, modyfikować i rozwijać.
