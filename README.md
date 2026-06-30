@@ -93,6 +93,15 @@ python main.py
 ### Dwa pola:
 python main_dualne.py
 
+# generator-fotonow / Field-Twist Photon Emission Engine
+
+This module implements the non-classical generation of directional wave-packets (photons) via localized topological deformation of the field matrix, completely bypassing the standard electron-excitation/quantum-jump paradigm.
+
+## Core Concept: Beyond Electron Displacement
+
+Traditional photon emission relies on standard quantum electrodynamics (QED) transitions: an electron transitions between discrete energy states, emitting a photon as a byproduct of relaxation. 
+
+This repository introduces an alternative mechanism based on the **Topological Information Matter-Dynamics Resonance (TIMDR)** framework. Instead of manipulating particle states, the emission is driven by an explicit **Structure Twist** performed directly on the underlying field vacuum within the `FIELDCORE` runtime.
 
 ### Oscylator:
 python main_oscylator.py
