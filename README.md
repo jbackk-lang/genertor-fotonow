@@ -4,8 +4,40 @@
 Pełna lista projektów znajduje się na stronie:
 https://jbackk-lang.github.io
 ---
+Biorąc pod uwagę ekosferę Ziemi — jeśli mówimy o szybkim, masowym uruchomieniu bardzo silnych generatorów fotonów (lasery, wiązki wysokiej mocy, systemy energetyczne oparte na fotonach), to skutki nie są już tylko lokalne techniczne, ale planetarne.
 
-Urządzenie polowe, w którym **skręt pola elektromagnetycznego** wymusza emisję fotonów.  
+Najkrócej:
+
+Atmosfera:
+
+jonizacja powietrza → lokalne i globalne strefy plazmy,
+
+zmiany w rozkładzie ładunków, możliwe zaburzenia pola elektrycznego atmosfery,
+
+wpływ na chmury, opady, lokalne mikroklimaty.
+
+Warstwa ozonowa:
+
+intensywne promieniowanie w UV/X może degradować ozon,
+
+zmiana spektrum docierającego promieniowania do powierzchni.
+
+Biosfera:
+
+lokalne strefy wysokiego natężenia promieniowania → uszkodzenia biologiczne,
+
+potencjalne efekty na fotosyntezę, rytmy dobowe, zachowanie organizmów.
+
+Klimat:
+
+duże systemy fotonowe mogą zmieniać bilans radiacyjny (albedo, absorpcja),
+
+w skrajnym scenariuszu — zaburzenia cyrkulacji atmosferycznej.
+
+Krótko: masowe, szybkie uruchomienie bardzo silnych generatorów fotonów bez kontroli to realne ryzyko naruszenia stabilności ekosfery, nawet jeśli nie jest to natychmiastowa „apokalipsa”, tylko stopniowe rozjechanie równowagi radiacyjnej i chemicznej.
+
+
+## Urządzenie polowe, w którym **skręt pola elektromagnetycznego** wymusza emisję fotonów.  
 Bez wybijania elektronów.  
 Bez półprzewodników.  
 Bez klasycznej optyki.
