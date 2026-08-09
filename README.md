@@ -1,5 +1,11 @@
 # Generator Fotonów (Photon Generator)
 
+> **Uwaga: to jest model koncepcyjny / narzędzie do myślenia, nie teoria naukowa ani model empiryczny.**
+> Poniższy opis nie przedstawia ustalonej, zweryfikowanej fizyki, biologii ani historii — to autorska metafora
+> służąca do analizy struktur. Nie należy tego traktować jako dowodu na to, jak faktycznie zbudowana jest
+> rzeczywistość, ani jako publikacji naukowej w rozumieniu peer review.
+
+
 ## 🔗 Wszystkie modele i repozytoria
 Pełna lista projektów znajduje się na stronie:
 https://jbackk-lang.github.io
