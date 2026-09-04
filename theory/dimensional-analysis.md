@@ -216,3 +216,21 @@ uczciwym zaznaczeniem, gdzie kończy się znana fizyka, a zaczyna
 otwarta, jawnie oznaczona hipoteza — ten sam wzorzec co
 `TIMDR_Gravity_Speculative.md` w GIA-TIMDR, tylko zastosowany tu, do
 tego repo.
+
+**Bramka fizycznej ważności (mechanizm + kalibracja).** Jedyna droga,
+żeby "skręt powoduje emisję fotonu" przestało być hipotezą i stało się
+fizyką (dosłowny cytat z sesji, 2026-09-04):
+
+1. **Mechanizm** — jawne równanie / zasada wariacyjna, z której
+   geometria (twist/OAM) WYMUSZA emisję, nie postulat
+   \(\Gamma_{\text{emisji}}=\kappa_{\text{twist}}\cdot|\ell|^n\cdot u\)
+   dopisany po to, żeby model miał jakiś mechanizm (§5 wyżej).
+2. **Kalibracja** — \(\kappa_{\text{twist}}\) dobrana nie „żeby liczby
+   wyglądały", tylko z realnego pomiaru (test falsyfikowalności z §5:
+   wnęka rezonansowa, kontrolowane ℓ, kontrola negatywna przy ℓ=0),
+   nie dobrana tak, by przewidywana emisja wypadła w oczekiwanym
+   zakresie.
+
+Dopóki oba warunki nie są spełnione RAZEM, ta gałąź modelu zostaje
+niepotwierdzoną hipotezą BSM-podobną — geometria/OAM z §1-4 mają
+realne osadzenie fizyczne, ale sam mechanizm emisji nie.
