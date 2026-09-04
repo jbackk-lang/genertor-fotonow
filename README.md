@@ -190,6 +190,18 @@ Oscylator z modulacją → światło impulsowe.
 
 ---
 
+## 🐛 Poprawki
+
+Naprawiono bug: `generuj_foton()`/`generuj_foton_z_pola()` tworzyły
+Foton dla KAŻDEGO niezerowego skrętu (`energia()`/`energia_pola()`
+liczą `abs(skret)`, więc reguła "tylko skręt dodatni emituje" nigdzie
+nie była faktycznie sprawdzona). Najbardziej widoczny efekt:
+`main_oscylator.py` drukował "FOTON" na każdym z 10 kroków zamiast
+naprzemiennie. `generator.py` i `generator_dualny.py` sprawdzają teraz
+jawnie `pole.skret > 0` przed utworzeniem Fotonu i zwracają `None` w
+przeciwnym razie — `main.py`/`main_oscylator.py`/`main_dualne.py`
+obsługują ten przypadek.
+
 ## 📌 Status projektu
 
 To jest **prototyp fizyczno‑topologiczny**.  

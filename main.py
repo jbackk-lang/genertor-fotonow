@@ -7,6 +7,9 @@ def main():
     foton = generuj_foton(pole)
 
     print("=== GENERATOR FOTONÓW ===")
+    if foton is None:
+        print("Brak emisji — skręt pola nie jest dodatni.")
+        return
     print("Energia:", foton.energia)
     print("Częstotliwość:", foton.czestotliwosc)
 
